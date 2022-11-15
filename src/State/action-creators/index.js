@@ -1,3 +1,5 @@
+import reducer from "../reducers/ammountReducer"
+
 export const depositMoney = (ammount) => {
     return (dispatch) => {
         dispatch({
